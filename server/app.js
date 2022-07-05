@@ -2,7 +2,7 @@ const express = require('express'),
     path = require('path'),
     cors = require('cors'),
     app = express()
-const port = 8080,
+const port = +process.env.PORT || 8080,
     server = app.listen(port)
 app.use(express.urlencoded({ limit: '50mb', extended: true }))
 app.use(express.json({ limit: '50mb' }))
