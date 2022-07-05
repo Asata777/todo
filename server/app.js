@@ -10,7 +10,7 @@ app.use(express.json({ limit: '50mb' }))
 
 app.get('/todos', (req, res) => res.sendFile(path.join(__dirname, 'todos.json')))
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './build/index.html'))
+    res.sendFile(path.join(__dirname, '../build/index.html'))
 })
 app.post('/admin', (req, res) => {
     const neededLogin = 'admin',
