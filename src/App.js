@@ -21,7 +21,7 @@ export default function App() {
   useEffect(() => {
     document.title = 'TODO App';
     (async () => {
-      const res = await fetch('http://localhost:8080/todos'),
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/todos`),
         data = await res.json()
       dispatch({
         type: ['CHANGE_TODOS'],
@@ -68,7 +68,7 @@ export default function App() {
     const login = loginRef.current.value?.trim() || '',
       password = passwordRef.current.value?.trim() || ''
     if (isValidFields([loginRef, passwordRef])) {
-      const res = await fetch('http://localhost:8080/admin', {
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/admin`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ login, password })

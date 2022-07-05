@@ -1,8 +1,4 @@
 [
-    { "id": 1, "name": "Valera", "email": "drezet@verizon.net", "text": "be sure there isn't anything embarrassing hidden in the middle of tex", "status": "done" },
-    { "id": 2, "name": "Igors", "email": "mcsporran@icloud.com", "text": "here are many variations of passages of Lorem I", "status": "done" },
-    { "id": 3, "name": "Pavels", "email": "sinkou@verizon.net", "text": "ers, as opposed to using 'Content here, content here', making it look", "status": "done" },
-    { "id": 4, "name": "Roberts", "email": "plover@verizon.net", "text": "d fact that a reader will be distracted by the readable content of a pa", "status": "done" },
-    { "id": 5, "name": "Krolja", "email": "staikos@sbcglobal.net", "text": "eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,", "status": "edit" },
-    { "id": 6, "name": "Bonik", "email": "squirrel@live.com", "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,", "status": "done" }
+    { "id": 1, "name": "test", "email": "test@test.com", "text": "test job", "status": "done" },
+    { "id": 2, "name": "test1", "email": "test@test1.com", "text": "test job1", "status": "done" }
 ]
